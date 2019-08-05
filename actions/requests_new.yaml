@@ -1,0 +1,13 @@
+---
+name: "requests_api_new"
+pack: stackstorm_python
+runner_type: "python-script"
+description: "Print api response in json using requests."
+enabled: true
+entry_point: "requests_new.py"
+parameters:
+    url:
+        type: "string"
+        description: "StackStorm with requests API!!!!."
+        required: true
+        position: 0
