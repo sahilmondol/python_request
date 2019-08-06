@@ -1,6 +1,6 @@
 ---
 name: "requests_api_new"
-pack: stackstorm_python
+pack: python_requests
 runner_type: "python-script"
 description: "Print api response in json using requests."
 enabled: true
