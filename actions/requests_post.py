@@ -8,7 +8,7 @@ from st2common.runners.base_action import Action
 
 class requests_api(Action):
 	def run(self,ID,Title,Description,PageCount,Excerpt):
-		url = 'http://fakerestapi.azurewebsites.net/swagger/ui/index#!/Books/Books_Post'
+		url = 'http://fakerestapi.azurewebsites.net/api/Books'
 		time = str(datetime.utcnow())
 		payload = {'ID': ID,
 					'Title': Title,
