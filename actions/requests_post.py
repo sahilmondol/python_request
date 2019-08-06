@@ -18,5 +18,5 @@ class requests_api(Action):
 					'PublishDate':time}
 		data=json.dumps(payload)
 		r = requests.post(url,data)
-		result = r.text
+		result = r.json()
 		print(result)
