@@ -16,7 +16,11 @@ class requests_api(Action):
 					'PageCount': PageCount,
 					'Excerpt': Excerpt,
 					'PublishDate':time}
+		header = {
+		'Content-Type': 'application/json',
+		'Accept': 'application/json'
+		}
 		data=json.dumps(payload)
-		r = requests.post(url,data)
+		r = requests.post(url,data,headers = header)
 		result = r.text
 		print(result)
