@@ -22,5 +22,5 @@ class requests_api(Action):
 		}
 		data=json.dumps(payload)
 		r = requests.post(url,data,headers = header)
-		result = r.text
+		result = r.json()
 		print(result)
