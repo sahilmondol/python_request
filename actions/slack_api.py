@@ -13,8 +13,8 @@ class slack_api(Action):
   					"text": "Hello, from StackStorm!!!"}
 		header = {'Content-Type': 'application/json',
 			'Accept': 'application/json',
-        	'Authorization' :'Bearer xoxp-569934227830-706838758277-724541326400-1ea067c79fcd93ae7c9bff6b029bc733'
-			}
+        	'Authorization' :'Bearer xoxp-569934227830-706838758277-726498830519-601308d96de319a9d685dbece94648a4'
+        	}
 		data=json.dumps(payload)
 		r = requests.post(url,data,headers = header)
 		result = r.json()
