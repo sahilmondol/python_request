@@ -6,7 +6,7 @@ from datetime import datetime
 
 from st2common.runners.base_action import Action
 
-class requests_api(Action):
+class slack_api(Action):
 	def run(self, url):
 		time = str(datetime.utcnow())
 		payload = {"channel": "xoxp-569934227830-706838758277-708758560834-9f695114116fbb7339f5e4da466fdf0c",
