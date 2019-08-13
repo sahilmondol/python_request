@@ -4,9 +4,4 @@ runner_type: "python-script"
 description: "Publishing messages to slack."
 enabled: true
 entry_point: "slack_api.py"
-parameters:
-    message:
-        type: "string"
-        description: "Publishing from StackStorm!!!!."
-        required: true
-        position: 0
+parameters:{}
