@@ -4,4 +4,9 @@ runner_type: "python-script"
 description: "Publishing messages to slack."
 enabled: true
 entry_point: "slack_api.py"
-parameters: {}
+parameters:
+    token:
+        type: "string"
+        description: "StackStorm with argument!."
+        required: true
+        position: 0
