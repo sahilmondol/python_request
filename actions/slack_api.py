@@ -21,12 +21,11 @@ class slack_api(Action):
 		# r = requests.post(url,data,headers = header)
 		# result = r.json()
 		# print(result)
-		token=os.environ['xoxp-569934227830-706838758277-724784231925-a65485fecc32e290a4f7f3bae4979103']
-		client = slack.WebClient(token)
+		api_token=("xoxp-569934227830-706838758277-726031710261-9d6a78696381f3eea854de12d91f25a9")
+		client = slack.WebClient(api_token)
 
 		response = client.chat_postMessage(
-        	channel='CGQB47LKV',
-        	text="Hello world!")
-		print(response.json())
+        		channel='#general',
+        		text="Hello!")
 
 
