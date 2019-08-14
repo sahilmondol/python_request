@@ -6,10 +6,10 @@ from datetime import datetime
 from st2common.runners.base_action import Action
 
 class slack_api(Action):
-	def run(self,token):
+	def run(self,token,message):
 		url = "https://slack.com/api/chat.postMessage"
 		payload = {"channel": "CGQB47LKV",
-  					"text": "Hello, from StackStorm!!!"
+  					"text": message
   					}
 		header = {'Content-Type': 'application/json',
 			'Accept': 'application/json',

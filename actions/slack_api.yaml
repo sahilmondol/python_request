@@ -10,3 +10,8 @@ parameters:
         description: "StackStorm with argument!."
         required: true
         position: 0
+    message:
+        type: "string"
+        description: "StackStorm with argument!."
+        required: true
+        position: 0
