@@ -14,4 +14,4 @@ parameters:
         type: "string"
         description: "StackStorm with argument!."
         required: true
-        position: 0
+        position: 1
