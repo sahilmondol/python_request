@@ -5,8 +5,13 @@ description: "Publishing messages to slack."
 enabled: true
 entry_point: "slack_api_retrieve.py"
 parameters:
-    time:
+    token:
         type: "string"
         description: "StackStorm with argument!."
         required: true
         position: 0
+    time:
+        type: "string"
+        description: "StackStorm with argument!."
+        required: true
+        position: 1
