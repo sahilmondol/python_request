@@ -9,4 +9,4 @@ parameters:
         type: "string"
         description: "StackStorm with argument!."
         required: true
-        position: 1
+        position: 0
