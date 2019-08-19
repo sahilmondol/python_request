@@ -13,7 +13,7 @@ class slack_api(Action):
   					}
 		header = {'Content-Type': 'application/json',
 			'Accept': 'application/json',
-        	'access_token' : '569934227830.732642180198.a002ec897ba43768097edd4939fa1a110f1bba924d12baf725e626a20fbdcc1f'
+        	'Authorization' : 'Bearer 569934227830.732642180198.a002ec897ba43768097edd4939fa1a110f1bba924d12baf725e626a20fbdcc1f'
         	}
 		data=json.dumps(payload)
 		r = requests.post(url,data,headers = header)
