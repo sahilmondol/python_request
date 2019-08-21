@@ -6,7 +6,7 @@ from datetime import datetime
 from st2common.runners.base_action import Action
 
 class slack_api(Action):
-	def run(self,token,message):
+	def run(self,message,token):
 		url = "https://slack.com/api/chat.postMessage"
 		payload = {"channel": "CGQB47LKV",
   					"text": message
