@@ -18,7 +18,7 @@ class Action_Run(Action):
         st2client.commands.action.LIVEACTION_STATUS_RUNNING,
         st2client.commands.action.LIVEACTION_STATUS_CANCELING
         ]
-        server = "https://192.168.0.4"
+        server = "192.168.0.4"
         username = "st2admin"
         password = "C1sc0@123"
         ref = "hello_st2.greet"
