@@ -1,0 +1,8 @@
+---
+name: "run_action"
+pack: python_requests
+runner_type: "python-script"
+description: "Print api response in json using requests."
+enabled: true
+entry_point: "run_action.py"
+parameters:{}

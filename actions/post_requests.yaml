@@ -1,0 +1,13 @@
+---
+name: "requests_post_api"
+pack: python_requests
+runner_type: "python-script"
+description: "Print api response in json using requests."
+enabled: true
+entry_point: "post_requests.py"
+parameters:
+    URL:
+        type: integer
+        description: "StackStorm with requests API, POST method!!!!."
+        required: true
+        position: 1
